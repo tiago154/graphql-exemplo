@@ -1,0 +1,9 @@
+input PerfilFiltro {
+  id: Int
+  nome: String
+}
+
+input AlterarPerfil {
+  filtro: PerfilFiltro!
+  nome: String!
+}
