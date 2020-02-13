@@ -7,11 +7,12 @@ module.exports = {
       throw new Error('Email já está cadastrado')
 
     const usuario = {
-      id: proximoId(),
+      id: proximoId('usuario'),
       ...dados,
       perfilId: 1,
       status: 'ATIVO'
     }
+
     usuariosMock.push(usuario)
     return usuario
   },
