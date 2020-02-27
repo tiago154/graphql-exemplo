@@ -1,0 +1,8 @@
+input CarroInput {
+  ano: Int
+  modelo: String
+}
+
+type Query {
+  listarCarros: [Carro]
+}

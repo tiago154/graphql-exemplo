@@ -1,0 +1,5 @@
+type Carro {
+  id: Int!
+  ano: Int
+  modelo: String!
+}

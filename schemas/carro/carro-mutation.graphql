@@ -1,0 +1,4 @@
+type CarroMutation {
+  novoCarro(data: CarroInput!): Carro!
+  deletarCarro(id: Int!): Carro!
+}
